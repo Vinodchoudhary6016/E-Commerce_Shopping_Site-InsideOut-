@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'jost', 'sans-serif';
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+.logo img {
+    max-width: 120px;
+    height: auto;
+}
+
+.navmenu {
+    display: flex;
+}
+
+.navmenu a {
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.navmenu a:hover {
+    transform: scale(1.1);
+    color: red;
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon i {
+    margin-right: 20px;
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.nav-icon i:hover {
+    transform: scale(1.1);
+    color: red;
+}
+
+#menu-icon {
+    font-size: 35px;
+    color: black;
+    z-index: 10001;
+    cursor: pointer;
+}
+
+section {
+    padding: 15% 10%;
+}
+
+.main-home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/banner-3.png);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    padding: 30px 14%;
+}
+
+.main-text h5 {
+    color: red;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.main-text h1 {
+    color: black;
+    font-size: 65px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0px 10px;
+}
+
+.main-text p {
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.btn {
+    display: inline-block;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid black;
+    padding: 12px 25px;
+    transition: all .42s ease;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.brands {
+    padding: 30px 14%;
+    background: black;
+}
+
+.main-brands {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.brand-c img {
+    width: 100%;
+    height: auto;
+}
+
+.down-arrow {
+    position: absolute;
+    top: 85%;
+    right: 11%;
+}
+
+.down i {
+    font-size: 30px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 12px 12px;
+}
+
+.down i:hover {
+    background-color: black;
+    color: white;
+    transition: all .42s ease;
+}
+
+header.sticky {
+    background: white;
+    padding: 20px 10%;
+    box-shadow: 0px 0px 10px black;
+}
+
+.center-text h2 {
+    color: black;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.center-text span {
+    color: red;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.row {
+    position: relative;
+    transition: all .40s;
+}
+
+.row img {
+    width: 100%;
+    height: auto;
+    transition: all .40s;
+}
+
+.row img:hover {
+    transform: scale(0.9);
+}
+
+.product-text h5 {
+    position: absolute;
+    color: #fff;
+    font-size: 12px;
+    top: 13px;
+    left: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #27b737;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+
+.heart-icon {
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+}
+
+.heart-icon:hover {
+    color: red;
+}
+
+.rating i {
+    color: orange;
+    font-size: 18px;
+}
+
+.price h4 {
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.price p {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.n-btn {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 14px 42px;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.newsletter-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10rem;
+    background: black;
+    padding: 60px 70px;
+    border-radius: 28px;
+}
+
+.newsletter-text h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.newsletter-text p {
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+
+.newsletter-content form {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap: 9rem;
+}
+
+.newsletter-content form input:first-child {
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 220px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.newsletter-content form input:last-child {
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.contact {
+    background-color: #f3f4f6;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 330px 100px 90px 90px 400px;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.first-info img {
+    height: auto;
+    width: 140px;
+}
+
+.contact-info h4 {
+    color: black;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    color: grey;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all .42s;
+}
+
+.contact-info p:hover {
+    color: red;
+}
+
+.social-icon i {
+    color: black;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: all .42s;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.social-icon i:hover {
+    transform: scale(1.3);
+    transform: rotate(360deg);
+}
+
+.end-text {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Responsive */
+
+@media(max-width:890px) {
+    header {
+        padding: 20px 3%;
+        transition: .4s;
+    }
+}
+
+@media(max-width:630px) {
+    .main-text h1 {
+        font-size: 50px;
+        transition: .4s;
+    }
+    .main-text p {
+        font-size: 18px;
+        transition: .4s;
+    }
+    .btn {
+        padding: 10px 20px;
+    }
+}
+
+@media(max-width:750px) {
+    .navmenu {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 300px;
+        height: 130vh;
+        background: #edfff1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 120px 30px;
+        transition: all .42s;
+    }
+    .navmenu a {
+        display: block;
+        margin: 18px 0;
+    }
+}
