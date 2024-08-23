@@ -3,6 +3,9 @@
 ## Description
 InsideOut is a stylish e-commerce website designed to showcase and sell clothing products for kids. The website features a modern layout with a focus on user experience, making it easy for customers to browse and shop for new arrivals and trending products.
 
+![Home Page](SAMPLE1.png)
+
+
 ## Key Features
 
 - **Header**: 
