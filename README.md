@@ -45,11 +45,4 @@ CSS3
 JavaScript
 Font Awesome
 Boxicons
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Acknowledgments
-Designed by Vinod Choudhary. Special thanks to the contributors and resources that made this project possible.
-
-python
 
